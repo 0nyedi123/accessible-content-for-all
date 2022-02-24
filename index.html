@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Accessible content for all</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Accessible content for all</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 
-    <header role="banner" id="top">
-      <h1>The Pangolin</h1>
+  <header role="banner" id="top">
+    <h1>The Pangolin</h1>
 
-      <ul class="skip-links">
-        <li><a href="#main">Jump to main content</a></li>
-        <li><a href="#nav">Jump to navigation</a></li>
+    <ul class="skip-links">
+      <li><a href="#main">Jump to main content</a></li>
+      <li><a href="#nav">Jump to navigation</a></li>
+    </ul>
+
+    <nav role="navigation" id="nav">
+      <ul>
+        <li><a href="Pangolin.html">Pangolin</a></li>
+        <li><a href="Description.html">Description</a></li>
+        <li><a href="Behaviour.html">Behaviour</a></li>
+        <li><a href="Conservation.html">Conservation</a></li>
       </ul>
+    </nav>
 
-      <nav role="navigation" id="nav">
-        <ul>
-          <li><a href="Pangolin.html">Pangolin</a></li>
-          <li><a href="Description.html">Description</a></li>
-          <li><a href="Behaviour.html">Behaviour</a></li>
-          <li><a href="Conservation.html">Conservation</a></li>
-        </ul>
-      </nav>
+  </header>
 
-    </header>
+  <main role="main" id="main">
+    <img src="asset/pangolin.jpg" alt="pangolin">
 
-    <main role="main" id="main">
-      <img src="asset/pangolin.jpg" alt="pangolin">
-
-   <dl class="visually-hidden" id="graph-info">
+    <dl class="visually-hidden" id="graph-info">
       <dt>Some countries where Pangolins are found</dt>
       <dd>Botswana</dd>
       <dd>Kenya</dd>
@@ -42,23 +42,23 @@
       <dd>Zimbabwe</dd>
     </dl>
 
-  <ol>
-  <li>
-  <h2>Behaviour</h2>
-  <a href="https://en.wikipedia.org/wiki/Pangolin#Behavior" aria-label="Read more about Pangolin behaviour">Read more</a>
-  </li>
+    <ol>
+      <li>
+        <h2>Behaviour</h2>
+        <a href="https://en.wikipedia.org/wiki/Pangolin#Behavior" aria-label="Read more about Pangolin behaviour">Read more</a>
+      </li>
 
-  <li>
-  <h2>Conservation</h2>
-  <a href="https://en.wikipedia.org/wiki/Pangolin#Conservation" aria-label="Read more about Pangolin conservation">Read more</a>
-  </li>
-</ol>
+      <li>
+        <h2>Conservation</h2>
+        <a href="https://en.wikipedia.org/wiki/Pangolin#Conservation" aria-label="Read more about Pangolin conservation">Read more</a>
+      </li>
+    </ol>
 
-</main>
+  </main>
 
-<footer role="contentinfo">
-<p>© 1821 Pangolin</p>
-</footer>
+  <footer role="contentinfo">
+    <p>© 1821 Pangolin</p>
+  </footer>
 
 </body>
 </html>
