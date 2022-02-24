@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Accessible content for all</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+    <header role="banner" id="top">
+      <strong>The Pangolin</strong>
+
+      <!-- The role of "navigation" defines the element as being the primary navigation for the site -->
+      <nav role="navigation" id="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <ul class="skip-links">
+      <li><a href="#nav">Skip to navigation</a></li>
+      <li><a href="#main">Skip to the main content</a></li>
+    </ul>
+
+
+
+
+    <dl class="visually-hidden" id="graph-info">
+      <dt>JSome countries where Pangolins are found</dt>
+      <dd>Botswana</dd>
+      <dt>Kenya</dt>
+      <dd>Mozambique</dd>
+      <dt>Namibia</dt>
+      <dd>South Africa</dd>
+      <dt>Tanzania</dt>
+      <dd>Uganda</dd>
+      <dt>Zambia</dt>
+      <dd>Zimbabwe</dd>
+    </dl>
+
+
+
+<aside role="">
+  <li>
+  <h2>Behaviour</h2>
+  <a href="https://en.wikipedia.org/wiki/Pangolin#Behavior" aria-label="Read more about Pangolin behaviour">Read more</a>
+  </li>
+
+  <li>
+  <h2>Conservation</h2>
+  <a href="https://en.wikipedia.org/wiki/Pangolin#Conservation" aria-label="Read more about Pangolin conservation">Read more</a>
+  </li>
+</aside>
+
+
+
+<footer role="contentinfo">
+<p>© 1821 Pangolin</p>
+</footer>
+
+</body>
+</html>
